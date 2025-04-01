@@ -94,8 +94,8 @@ imageshow.addEventListener('contextmenu', function (e) {
 mainBox = document.getElementById("main-box")
 mainBox.appendChild(imageshow)
 
-async function theShow() {
-    await setTimeout(() => {
+function theShow() {
+    setTimeout(() => {
         imageshow.src = bunnyOops
         setTimeout(() => {
             imageshow.src = didYouSeeThat
@@ -116,7 +116,7 @@ function showOver2() {
         goAndStudy.innerHTML = "JAAKE PADHIYEE!"; setTimeout(() => {
             alert("Are Aise Dil Chhota Mat Kijiye, Rukiye!");
             setTimeout(() => {
-                window.location.href = "./KiskeSaath.webm";
+                window.location.href = "./kjcbvksjdbvkjsd.mp4";
             }, 3000)
         }, 4000)
     }, 3000)
@@ -131,7 +131,9 @@ initialCheckInterval = setInterval(function () {
         setTimeout(() => {
             if (champ != "no") {
                 imageshow.src = champ
-                theShow()
+                setTimeout(() => {
+                    theShow()
+                }, 2000)
             } else {
                 // if (localStorage.getItem("champ")) { showOver2() }
                 // else { showOver1(); localStorage.setItem("champ", "1") }
