@@ -146,7 +146,7 @@ initialCheckInterval = setInterval(function () {
                                 setTimeout(() => {
                                     alert(`Momo Khaiye, Mst rahiye!
                                         Byeeeee`)
-                                }, 200)
+                                }, 600)
                                 setTimeout(() => {
                                     showOver2()
                                 }, 1000)
